@@ -1,0 +1,35 @@
+# secrets / credentials
+.env
+airbnb/.env
+airbnb/profiles.yml
+airbnb/_prod_profiles/
+.user.yml
+set-env.sh
+set-env.ps1
+
+# dbt artifacts
+airbnb/package-lock.yml
+airbnb/target*/
+airbnb/dbt_packages/
+airbnb/dbt_internal_packages/
+logs/
+
+# python / venv
+**/__pycache__/
+*.pyc
+venv/
+.venv/
+
+# misc project-local
+archive/
+dbt_dagster_project/tmp*
+tmp*/
+/my_dbt_dagster_project
+
+# editor / OS / local notes
+.claude
+.vscode
+.idea
+.DS_Store
+CLAUDE.md
+PROD.md
