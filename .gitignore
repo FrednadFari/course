@@ -2,7 +2,7 @@
 .env
 airbnb/.env
 airbnb/profiles.yml
-airbnb/_prod_profiles/
+
 .user.yml
 set-env.sh
 set-env.ps1
