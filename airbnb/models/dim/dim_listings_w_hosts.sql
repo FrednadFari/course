@@ -10,6 +10,7 @@ SELECT
     l.listing_name,
     l.room_type,
     l.price AS price_usd,
+    l.price_str,
     l.host_id,
     h.host_name,
     h.is_superhost AS host_is_superhost,
